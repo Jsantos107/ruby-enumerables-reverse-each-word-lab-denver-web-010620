@@ -11,4 +11,5 @@ end
 def reverse_each_word (string)
   array = string.split(" ")
   test_array = [ ]
-  array.collect
+  array.collect do | string |
+    
